@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 13px;
+    font-weight: 400;
+    margin: auto;
+}
+header{
+    height: 8vh;
+    width: 100%;
+}
+.logo img{
+    width: 100px;
+}
+.logo{
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.navlinks ul{
+    display:inline-flex;
+}
+.navlinks{
+    height: 45px;
+    width: 27%;
+    margin-left: 20px;
+    border: 1px solid #DDDDDD;
+    border-radius: 100px;
+    position: relative;
+}
+.sch{
+    margin-right: 10px;
+}
+.navlinks:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.navlinks ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+.secondnav{
+    display: inline-flex;
+    margin-right: 100px;
+    margin-top: 15px;
+    
+}
+.secondnav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+.round a{
+    margin-right: 12px;
+}
+.secondnav a{
+    text-decoration: none;
+    color: black;
+}
+.round{
+    border-radius: 100px;
+    padding: 5px;
+    border: .5px solid grey;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+}
+.stroke1{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #DDDDDD;
+}
+
+.stroke2{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #DDDDDD;
+}
+.srch{
+    position: Absolute;
+    left: 86%;
+    top: 10%;
+    padding-top: 10px;
+    text-align: center;
+    height: 80%;
+    width: 10%;
+    background-color: #ff385c;
+    margin-left: 10px;
+    object-fit: contain;
+    color: white;
+    border-radius: 110px;
+}
+.ike{
+    width: 30px;
+    margin-bottom: 10px;
+}
+.iconsimage1,.iconsimage2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.image{
+    margin-left: 50px;
+}
+p{
+    margin-bottom:  30px;
+}
+.icons{
+    display: flex;
+    width: 200%;
+    font-size: 13px;
+    padding-top: 10px;
+    text-align: center;
+}
+.iconcontainer{
+    width: 85%;
+    overflow: hidden;
+    margin: auto;
+    padding-right: 30px;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+.slider{
+    height: 10vh;
+    display: flex;
+    width: 85%;
+    padding-top: 10px;
+    padding-right: 100px;
+    margin: auto;
+}
+.filterimage{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: .5px solid grey;
+    background-color: #fff;
+    color: black;
+}
+.left-arrow, .arrowright{
+    opacity: 0;
+}
+.left-arrow:hover, .arrowright:hover{
+    opacity: 1;
+}
+.cont{
+    margin-top: 10rem;
+}
+.stev{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#headersection{
+    position: fixed;
+    height: 13vh;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    box-shadow: 4px 4px 10px rgb(187, 187, 187);
+}
+#slidersection{
+    position: fixed;
+    height: 15vh;
+    top: 75px;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+.container1{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 15rem;
+}
+
+.radius{
+    border-radius: 10px;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    position: fixed;
+    top: 570px;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    box-shadow: 4px 4px 10px rgb(187, 187, 187);
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.foot2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.foot2 p{
+    margin-right: 10px;
+}
+
+.mother{
+    width: 22%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.kids{
+    display: flex;
+    width: 200%;
+}
+
+.firstborn1,.firstborn2{
+    width: 50%;
+}
+
+.father{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+

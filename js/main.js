@@ -16,4 +16,3 @@ function prev(){
     return iconsmenu.scrollTo(-850, 0)
   }
 }
-
